@@ -21,7 +21,12 @@ Wall EC, Wu M, Harvey R, Kelly G, Warchal S, Sawyer C, Daniels R, Adams L, Hobso
 ## Usage
 Runs from the main.R file. 
 
-Figure /images/ComirnatyTitresBelowLODs.png is an output of _runPercentsBelowLODs()_ assuming 20x Omicron neutralisation drop vs  Delta after two Comirnaty doses. The computed distribution of neutralising IC50 log10 titres against Omicron is shown with % censored at each LOD. Figure /images/Vaxzevria_IC50_Vs_Age.png is an output of _runTitresVsAgeOmicron()_ assuming 20x Omicron neutralisation drop vs Delta after two Vaxzevria doses. The IC50 log10 titres against Omicron are plotted versus study participants' age, with censoring at LOD10 and LOD20 illustrated. 
+Figure /images/ComirnatyTitresBelowLODs.png is an output of _runPercentsBelowLODs()_ assuming 20x Omicron neutralisation drop vs  Delta after two Comirnaty doses. The computed distribution of neutralising IC50 log10 titres against Omicron is shown with % censored at each LOD. 
+![alt text](https://github.com/XITIFIC/detection_limit_omicron_neutralisation/blob/main/images/ComirnatyTitresBelowLODs.png)
+
+
+Figure /images/Vaxzevria_IC50_Vs_Age.png is an output of _runTitresVsAgeOmicron()_ assuming 20x Omicron neutralisation drop vs Delta after two Vaxzevria doses. The IC50 log10 titres against Omicron are plotted versus study participants' age, with censoring at LOD10 and LOD20 illustrated. 
+![alt text](https://github.com/XITIFIC/detection_limit_omicron_neutralisation/blob/main/images/Vaxzevria_IC50_Vs_Age.png)
 
 Different LODs, neutralisation drops, dose counts (1 or 2) and the baseline VoC can be specified for either vaccine. Boosting is accommodating by setting 'booster_increase_folds' after a 3rd dose. 
 
