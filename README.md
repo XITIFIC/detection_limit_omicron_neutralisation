@@ -21,9 +21,10 @@ Wall EC, Wu M, Harvey R, Kelly G, Warchal S, Sawyer C, Daniels R, Adams L, Hobso
 ## Usage
 Runs from the main.R file. 
 
+Figure /images/ComirnatyTitresBelowLODs.png is an output of _runPercentsBelowLODs()_ assuming 20x Omicron neutralisation drop vs  Delta after two Comirnaty doses. The computed distribution of neutralising IC50 log10 titres against Omicron is shown with % censored at each LOD. Figure /images/Vaxzevria_IC50_Vs_Age.png is an output of _runTitresVsAgeOmicron()_ assuming 20x Omicron neutralisation drop vs Delta after two Vaxzevria doses. The IC50 log10 titres against Omicron are plotted versus study participants' age, with censoring at LOD10 and LOD20 illustrated. 
+
+Different LODs, neutralisation drops, dose counts (1 or 2) and the baseline VoC can be specified for either vaccine. Boosting is accommodating by setting 'booster_increase_folds' after a 3rd dose. 
+
 NB The code was developed and tested on MacOS in Pycharm R-plugin. 
 The function showInChrome() in plotters.R shows plots as tabs in a Chrome browser window. It is  Mac and Chrome specific. 
-If necessary, change this function or write fig instead of showInChrome(fig) in the plotting functions. 
-
-
-
+If necessary, change this function or write fig instead of showInChrome(fig) in the plotting functions.
